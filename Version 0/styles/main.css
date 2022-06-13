@@ -1,4 +1,3 @@
-
 /* reset styles */
 
 * {
@@ -30,15 +29,19 @@ body {
   align-items: center;
   background: black;
 }
+
 .hero-title {
   margin-top: 50px;
 }
+
 .logo {
   height: 30px;
 }
-.nav{
+
+.nav {
   display: none;
 }
+
 .list {
   display: flex;
   justify-content: space-between;
@@ -64,7 +67,8 @@ body {
 /* main */
 
 .main {
-  margin-top: 60px; /* esto es lo que mide el header */
+  margin-top: 60px;
+  /* esto es lo que mide el header */
 }
 
 /* hero area */
@@ -197,15 +201,19 @@ body {
     background-repeat: no-repeat;
     background-position-x: right;
   }
-  .hamb{
+
+  .hamb {
     display: none;
   }
-  .nav{
+
+  .nav {
     display: block;
   }
+
   .hero-title {
     margin-top: 100px;
   }
+
   .benefits {
     flex-direction: row;
     justify-content: center;
