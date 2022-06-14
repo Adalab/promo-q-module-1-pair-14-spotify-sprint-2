@@ -8,11 +8,13 @@
 @import 'pages/index';
 */
 
+@import 'core/variables';
+
 /* reset styles */
 
 * {
     box-sizing: border-box;
-    font-family: Circular, Arial, Helvetica, sans-serif;
+    font-family: $font-main;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -85,7 +87,7 @@ body {
 
 .hero {
     padding: 60px 30px 30px 30px;
-    background-color: #0691ff;
+    background-color: $color-bg;
     color: white;
     height: 50vh;
 }
@@ -107,7 +109,7 @@ body {
     margin-top: 30px;
     padding: 5px 25px;
     border-radius: 50px;
-    background-color: #4bb84a;
+    background-color: $color-button;
     font-size: 10px;
     font-weight: bold;
     letter-spacing: 1.5px;
